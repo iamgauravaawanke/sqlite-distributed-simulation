@@ -1,18 +1,18 @@
-# 🗂️ SQLite Distributed Simulation
+#  SQLite Distributed Simulation
 
 This project simulates a distributed system where different types of data are stored in separate SQLite databases.  
 It demonstrates **multi-threaded insertions** into multiple databases at the same time.
 
 ---
 
-## 📂 Databases
+## Databases
 - **users.db** → Stores user details (`id`, `name`, `email`)  
 - **products.db** → Stores product details (`id`, `name`, `price`)  
-- **orders.db** → Stores order details (`id`, `user_id`, `product_id`)  
+- **orders.db** → Stores order details (`id`, `user_id`, `product_id`, `quantity`)  
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repository:
    ```bash
